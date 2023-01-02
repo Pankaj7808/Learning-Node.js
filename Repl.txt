@@ -1,0 +1,6 @@
+REPL feature of node is very useful in experimenting with node jscodes and to debug  javascript code.
+
+R -> Read user's imnput, parses the input into javascript data-structure and stores in memory.
+E -> Takes and evaluate the data 
+P -> prints the result
+L -> Loops the above command until user press ctrl+C
