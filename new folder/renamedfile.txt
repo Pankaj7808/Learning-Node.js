@@ -1,0 +1,1 @@
+CRUD is an operation in MongoDbIt is just practice code
