@@ -4,3 +4,57 @@ R -> Read user's imnput, parses the input into javascript data-structure and sto
 E -> Takes and evaluate the data 
 P -> prints the result
 L -> Loops the above command until user press ctrl+C
+
+
+To set Repl environment just run the command node
+
+What can we do using REPL
+1. js expression
+2. use variables
+3. Multiline code
+4. Use (_) to fetch the last result
+5. We can use editor mode
+
+//
+> 5=='5'
+true
+> 5==='5'
+false
+
+> _
+false
+> 9%3
+0
+> 5==='5'
+false
+
+> 5=='5'
+true
+
+> console.log("Pankaj")
+Pankaj
+undefined
+
+> let a = "Pankaj"
+undefined
+
+> a
+'Pankaj'
+
+
+> for(let i=0; i<2; i++)
+... console.log("Hello")
+Hello
+Hello
+undefined
+
+> .editor
+// Entering editor mode (Ctrl+D to finish, Ctrl+C to cancel)
+const isOdd = (num) =>
+{return num%2!=0}
+isOdd(5);
+
+true
+
+>
+//press ctrl+c twice to terminate
