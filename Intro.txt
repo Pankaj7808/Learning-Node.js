@@ -1,0 +1,4 @@
+Node.js has many built-in modules that are part of the platform and comes with Node.js installation. These modules can be loaded into the program by using the require function.
+
+Syntax:-
+var module = require('module_name');
