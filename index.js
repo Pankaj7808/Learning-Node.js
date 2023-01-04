@@ -1,7 +1,7 @@
 /* const app = require("./App");
 
 console.log(app)
-//-->>> require("./App") return objects of two function as two function are exportting
+//-->>> require("./App") return objects of two function as two function are exportting if more than one thing is exported
 
 
 console.log(app.add(5,5)); */
