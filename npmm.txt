@@ -1,0 +1,7 @@
+Npm -> Node Package Manager.
+To install a modul --> npm i packageName
+To uninstall a package --> npm uninstall packageName
+Toinstall of a particular version --> npm i packageName@versionName
+
+package.json file holds various metadata relevant to the project. This file is used to give information to npm that allows it to identify the project.
+package.json is not a javascript object.
